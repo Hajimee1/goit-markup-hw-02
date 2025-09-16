@@ -1,0 +1,76 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "Raleway" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.logo {
+  font-family: "Raleway", "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167; /*21px*/
+  color: #4d5ae5;
+}
+.navmenu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact,
+.card-text {
+  color: #434455;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+.service-button {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  text-align: center;
+}
+.service-button:hover,
+.service-button:focus,
+.service-button:active {
+  background-color: #404bbf;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.section-title,
+.card-title,
+.navmenu,
+.header-logo {
+  color: #2e2f42;
+}
+.contact:hover,
+.contact:active,
+.contact:focus,
+.navmenu:hover,
+.navmenu:active,
+.navmenu:focus {
+  color: #404bbf;
+}
+.page-info,
+.footer-logo {
+  background-color: #2e2f42;
+  color: #f4f4f4;
+}
