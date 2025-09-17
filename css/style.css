@@ -30,11 +30,10 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
 }
-.hero {
+.hero-section {
   background-color: #2e2f42;
 }
 .service-button {
