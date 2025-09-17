@@ -4,13 +4,14 @@
   font-style: normal;
 }
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #ffffff;
+  color: #434455;
 }
 .logo {
-  font-family: "Raleway", "Roboto" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.167; /*21px*/
@@ -28,10 +29,13 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
+}
+.hero {
+  background-color: #2e2f42;
 }
 .service-button {
   font-weight: 500;
@@ -39,6 +43,9 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
   text-align: center;
+}
+.team-section {
+  background-color: #f4f4f4;
 }
 .service-button:hover,
 .service-button:focus,
@@ -53,7 +60,7 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 }
 .section-title,
 .card-title,
